@@ -9,7 +9,6 @@ function Header() {
         <Box p={4}>
         <Button colorScheme="blue">Chakra Button</Button>
       </Box>
-   
       </>
     )
   }
