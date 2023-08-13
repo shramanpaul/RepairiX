@@ -21,13 +21,13 @@ To get started with this template, follow these steps:
 1. Clone this repository to your local machine using:
 
    ```bash
-   git clone https://github.com/yourusername/your-react-vite-chakra-app.git
+   git clone https://github.com/shramanpaul/RepairiX.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd your-react-vite-chakra-app
+   cd RepairiX
    ```
 
 3. Install the dependencies using your preferred package manager:
