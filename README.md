@@ -1,4 +1,4 @@
-# React + Vite + Chakra UI App
+# RepairiX
 
 This repository contains a minimal template for setting up a React application using Vite as the build tool and Chakra UI for styling. This setup includes Hot Module Replacement (HMR) for fast development and follows some ESLint rules for maintaining code quality.
 
