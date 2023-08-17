@@ -1,18 +1,19 @@
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState } from 'react'
+
 import { Box, Button } from '@chakra-ui/react';
 
 
-import Header from './components/Header';
+import Header from './pages/Header';
+import Landingpage from './pages/Landingpage';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Header />} />
-    
+      <Route path="/" element={<Landingpage />} />
+      <Route path="/header" element={<Header />} />
     </Routes>
   </BrowserRouter>
   )
