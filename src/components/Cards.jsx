@@ -34,7 +34,12 @@ function Cards() {
   ];
 
   return (
-    <Flex direction="column" alignItems="center" mt={10}> 
+    <Flex direction="column" alignItems="center" mt={20}> 
+      <Box textAlign="center">
+        <Heading color="#6674CC" size="2xl" mb={2}>Our Services</Heading>
+        <Box width="140px" height="4px" bgColor="#6674CC" margin="0 auto" marginBottom={6}></Box>  
+      </Box>
+
       <Flex justify="flex-end" width="full"></Flex>
       <Box maxW={["full", "3xl", "5xl", "6xl"]} width="full">
         <SimpleGrid 
