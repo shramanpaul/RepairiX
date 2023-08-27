@@ -35,7 +35,7 @@ function HeroSection() {
 
           <Wrap spacingX="10" mt="10">
             <WrapItem>
-              <Button fontSize={["12px","14px","16px","18px"]} bgColor="#6674CC" color="white" variant="solid" w="fit-content">
+              <Button fontSize={["12px", "14px", "16px", "18px"]} bgColor="#6674CC" color="white" variant="solid" w="fit-content" _hover={{ bgColor: "#8c9bfa" }}>
                 Become Premium Member
               </Button>
             </WrapItem>
