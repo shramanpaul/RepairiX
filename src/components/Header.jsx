@@ -32,6 +32,7 @@ function Navbar() {
           fontFamily="sans-serif"
           fontSize="lg"
           fontWeight="medium"
+          cursor= "pointer"
         >
           <ListItem _hover={{ color: "#6674CC" }}>Home</ListItem>
           <ListItem _hover={{ color: "#6674CC" }}>Services</ListItem>
